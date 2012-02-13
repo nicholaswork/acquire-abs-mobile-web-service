@@ -4,5 +4,22 @@
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER"/>
-	<classpathentry kind="output" path="target/classes"/>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Evaluator/.m2/repository/org/jboss/resteasy/jaxrs-api/2.0-beta-2/jaxrs-api-2.0-beta-2.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="org.jboss.resteasy"/>
+			<attribute name="maven.artifactId" value="jaxrs-api"/>
+			<attribute name="maven.version" value="2.0-beta-2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Evaluator/.m2/repository/org/jboss/resteasy/resteasy-jettison-provider/2.0-beta-2/resteasy-jettison-provider-2.0-beta-2.jar">
+		<attributes>
+			<attribute name="maven.groupId" value="org.jboss.resteasy"/>
+			<attribute name="maven.artifactId" value="resteasy-jettison-provider"/>
+			<attribute name="maven.version" value="2.0-beta-2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/WEB-INF/classes"/>
 </classpath>
