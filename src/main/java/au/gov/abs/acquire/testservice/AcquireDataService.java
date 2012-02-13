@@ -4,9 +4,7 @@ package au.gov.abs.acquire.testservice;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import javax.naming.NamingException;
 import javax.ws.rs.GET;
-import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
@@ -72,7 +70,7 @@ public class AcquireDataService {
 		return null;
 	}
 
-	@POST
+	@GET
 	@Path("/uploadresponse/{address_id}/{photo}/{q1}/{q2}/{q3}")
 	public void uploadresponse(@PathParam("address_id") String address_id, @PathParam("photo") String photo, @PathParam("q1") String q1,
 			@PathParam("q2") String q2, @PathParam("q3") String q3) throws ClassNotFoundException {
@@ -95,7 +93,7 @@ public class AcquireDataService {
 		}
 	}
 
-	@POST
+	@GET
 	@Path("/uploadresponseperson/{address_id}/{name}/{age}/{work}")
 	public void uploadresponseperson(@PathParam("address_id") String address_id, @PathParam("name") String name, @PathParam("age") String age,
 			@PathParam("work") String work) throws ClassNotFoundException {
